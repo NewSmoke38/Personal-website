@@ -1,12 +1,13 @@
 body {
-  text-align: left;
+  text-align: center;
   font-family: Courier New;
   background: black;
-  color: white;
-  max-width: 70%;
-  font-size: 19px;
+  color: black;
+  max-width: 100%;
+  font-size: 40px;
 }
 
 img {
-  
+  width: 356px;
+  height: 700px;
 }
