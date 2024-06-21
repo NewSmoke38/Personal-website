@@ -1,17 +1,54 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <link rel="stylesheet" href="style.css"/>
-  </head>
-  
-  <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vertical Lines Border</title>
 
-    
-    <img
-      src="IMG_1048.jpeg"
-      />
-    <h1>chxshi</h1>
-    <p>I am chxshi, a wannabe developer.</p>
-    <p><i>I like <b>coding</b> and <i>playing <b>basketball</b></i></p>
-   </body>
+  
+    <link rel="stylesheet" href="style.css"/>
+  
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            position: relative;
+        }
+
+        .vertical-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: white;
+        }
+
+        .left-line {
+            left: 20%; /* Adjust as needed to position the left line */
+        }
+
+        .right-line {
+            right: 20%; /* Adjust as needed to position the right line */
+        }
+
+        .content {
+            text-align: center;
+            width: 60%; /* Adjust as needed to ensure proper spacing */
+        }
+    </style>
+</head>
+<body>
+    <div class="vertical-line left-line"></div>
+    <div class="vertical-line right-line"></div>
+    <div class="content">
+      <img
+        src="IMG_1078.jpeg"
+        />
+        <h1>Chxshi</h1>
+        <p>i like playing <b>basketball</b></p>
+    </div>
+</body>
 </html>
