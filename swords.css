@@ -4,9 +4,14 @@ body {
   background: black;
   color: white;
   max-width: 82%;
-  font-size: 30px;
+  font-size: 43px;
 }
 img {
   width: 378px;
   height: 710px;
 }
+p {
+  margin: 0;
+  padding: 0;
+}
+
