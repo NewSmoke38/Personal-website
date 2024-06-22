@@ -3,11 +3,6 @@ body {
   font-family: Courier New;
   background: black;
   color: white;
-  max-width: 100%;
-  font-size: 40px;
-}
-
-img {
-  width: 356px;
-  height: 700px;
+  max-width: 75%;
+  font-size: 22px;
 }
